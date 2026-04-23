@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — JobTrackr Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #09090d; --s1: #13131a; --bd: #2e2e3e;
+    --tx: #f0f0f5; --mu: #8080a8; --ac: #7c6af7; --g: #4fd1a5;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg); color: var(--tx);
+    max-width: 680px; margin: 0 auto;
+    padding: 40px 24px 80px;
+    font-size: 15px; line-height: 1.8;
+  }
+  .back {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 13px; color: var(--mu); text-decoration: none;
+    margin-bottom: 32px; transition: color 0.15s;
+  }
+  .back:hover { color: var(--tx); }
+  .logo-row {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 32px;
+  }
+  .logo {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, #7c6af7, #f06090);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; color: #fff;
+  }
+  .logo-name { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; }
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 28px; font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .updated { font-size: 13px; color: var(--mu); margin-bottom: 36px; }
+  h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 17px; font-weight: 600;
+    margin: 32px 0 12px; color: var(--tx);
+  }
+  p { margin-bottom: 14px; color: #c8c8d8; }
+  ul { margin: 0 0 14px 20px; color: #c8c8d8; }
+  ul li { margin-bottom: 6px; }
+  .highlight {
+    background: #4fd1a510; border: 1px solid #4fd1a530;
+    border-radius: 10px; padding: 14px 18px;
+    margin: 24px 0; font-size: 14px; color: var(--g);
+    display: flex; gap: 10px; align-items: flex-start;
+  }
+  .highlight-icon { font-size: 18px; flex-shrink: 0; }
+  table {
+    width: 100%; border-collapse: collapse;
+    margin: 14px 0 24px; font-size: 13px;
+  }
+  th {
+    text-align: left; padding: 9px 12px;
+    background: var(--s1); border: 1px solid var(--bd);
+    color: var(--mu); font-weight: 500;
+    font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+  }
+  td {
+    padding: 9px 12px; border: 1px solid var(--bd);
+    color: #c8c8d8; vertical-align: top;
+  }
+  a { color: var(--ac); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .divider { border: none; border-top: 1px solid var(--bd); margin: 32px 0; }
+  .footer { font-size: 12px; color: var(--mu); margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<a class="back" href="https://janivana23.github.io/jobtrackr-pro">← Back to JobTrackr Pro</a>
+
+<div class="logo-row">
+  <div class="logo">J</div>
+  <div class="logo-name">JobTrackr Pro</div>
+</div>
+
+<h1>Privacy Policy</h1>
+<div class="updated">Last updated: April 2026</div>
+
+<div class="highlight">
+  <div class="highlight-icon">🔒</div>
+  <div><strong>Short version:</strong> All your job application data stays on your own device. We have no servers storing your personal data. We never sell or share your information with anyone.</div>
+</div>
+
+<h2>What data we store</h2>
+<p>JobTrackr Pro stores the following data <strong>locally in your browser</strong> using Chrome's built-in <code>chrome.storage.local</code> API. This data never leaves your device unless you choose to use AI features:</p>
+<ul>
+  <li>Job application details you enter (company, role, status, dates, notes)</li>
+  <li>Your preferences (name, nationality, salary range, job type)</li>
+  <li>Visa and work pass information you enter</li>
+  <li>Your license key (if you purchase Pro)</li>
+</ul>
+
+<h2>What data we send externally</h2>
+<p>We only contact external services in these specific situations:</p>
+
+<table>
+  <thead>
+    <tr><th>Service</th><th>When</th><th>What is sent</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Supabase</strong><br><span style="font-size:11px;color:var(--mu)">License verification</span></td>
+      <td>When you activate or verify a license key</td>
+      <td>Your license key only. Used to confirm your purchase is valid.</td>
+    </tr>
+    <tr>
+      <td><strong>Stripe</strong><br><span style="font-size:11px;color:var(--mu)">Payments</span></td>
+      <td>When you purchase a Pro plan</td>
+      <td>Email address and payment details. Stripe's privacy policy applies: <a href="https://stripe.com/privacy" target="_blank">stripe.com/privacy</a></td>
+    </tr>
+    <tr>
+      <td><strong>Job listing websites</strong><br><span style="font-size:11px;color:var(--mu)">Auto-detect</span></td>
+      <td>When you visit LinkedIn, Indeed, JobStreet, etc.</td>
+      <td>Nothing is sent. The extension reads data already visible on the page, locally.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>What we do NOT collect</h2>
+<ul>
+  <li>We have no analytics, tracking, or usage data</li>
+  <li>We do not collect your name, email, or any personal details unless you purchase Pro</li>
+  <li>We do not use cookies</li>
+  <li>We do not sell, rent, or share your data with any third parties</li>
+  <li>We have no access to the data stored on your device</li>
+</ul>
+
+<h2>Chrome permissions explained</h2>
+<table>
+  <thead>
+    <tr><th>Permission</th><th>Why we need it</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>storage</code></td><td>Save your application data locally in your browser</td></tr>
+    <tr><td><code>activeTab</code></td><td>Read job listing details from the page you're currently viewing</td></tr>
+    <tr><td><code>scripting</code></td><td>Run a script to extract job data from job listing pages</td></tr>
+    <tr><td><code>tabs</code></td><td>Open the full app view and email links in new tabs</td></tr>
+  </tbody>
+</table>
+
+<h2>How to delete your data</h2>
+<p>You can delete all your data at any time:</p>
+<ul>
+  <li>Go to <code>chrome://extensions</code></li>
+  <li>Click <strong>Details</strong> on JobTrackr Pro</li>
+  <li>Click <strong>Clear data</strong></li>
+</ul>
+<p>Or simply uninstall the extension — this removes all locally stored data permanently.</p>
+
+<h2>Data security</h2>
+<p>All your data is stored using Chrome's built-in secure storage system. Your license key is stored locally and only transmitted to our license server (Supabase) during verification. We use HTTPS for all external requests.</p>
+
+<h2>Children's privacy</h2>
+<p>JobTrackr Pro is not directed at anyone under the age of 13. We do not knowingly collect information from children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If our data practices change, we will update the "Last updated" date above. Continued use of the extension after changes means you accept the updated policy.</p>
+
+<h2>Contact</h2>
+<p>Questions about this privacy policy? Email us at <a href="mailto:janiceivana@gmail.com">janiceivana@gmail.com</a> or open an issue at <a href="https://github.com/janivana23/jobtrackr-pro" target="_blank">github.com/janivana23/jobtrackr-pro</a>.</p>
+
+<hr class="divider">
+
+<div class="footer">
+  JobTrackr Pro · Built for foreign job seekers in Singapore 🌏<br>
+  © 2026 · <a href="https://janivana23.github.io/jobtrackr-pro">Home</a>
+</div>
+
+</body>
+</html>
