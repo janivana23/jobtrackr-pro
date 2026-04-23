@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JobTrackr Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #09090d; --s1: #13131a; --bd: #2e2e3e;
+    --tx: #f0f0f5; --mu: #8080a8;
+    --ac: #7c6af7; --g: #4fd1a5;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--tx);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 56px; height: 56px;
+    background: linear-gradient(135deg, #7c6af7, #f06090);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 24px; font-weight: 700; color: #fff;
+    margin: 0 auto 20px;
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 26px; font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .sub {
+    font-size: 15px; color: var(--mu);
+    margin-bottom: 32px; line-height: 1.7;
+    max-width: 400px;
+  }
+
+  .card {
+    background: var(--s1);
+    border: 1px solid var(--bd);
+    border-radius: 14px;
+    padding: 24px 28px;
+    max-width: 420px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    text-align: left;
+    margin-bottom: 18px;
+  }
+  .step:last-child { margin-bottom: 0; }
+  .step-n {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: #7c6af720; border: 1px solid #7c6af740;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 600; color: var(--ac);
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .step-title { font-size: 14px; font-weight: 500; margin-bottom: 2px; }
+  .step-sub { font-size: 12px; color: var(--mu); line-height: 1.6; }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: #4fd1a518; border: 1px solid #4fd1a530;
+    border-radius: 20px; padding: 6px 14px;
+    font-size: 13px; font-weight: 500; color: var(--g);
+    margin-bottom: 28px;
+  }
+
+  .links {
+    display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    margin-top: 8px;
+  }
+  .link {
+    font-size: 12px; color: var(--mu);
+    text-decoration: none; padding: 4px 0;
+    border-bottom: 1px solid transparent;
+    transition: all 0.15s;
+  }
+  .link:hover { color: var(--tx); border-color: var(--bd); }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 11px; color: var(--mu);
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+
+<div class="logo">J</div>
+
+<h1>You're all set!</h1>
+<p class="sub">Your billing changes have been saved. Head back to the JobTrackr Pro extension in Chrome to continue.</p>
+
+<div class="pill">
+  <span>✓</span> Subscription managed successfully
+</div>
+
+<div class="card">
+  <div class="step">
+    <div class="step-n">1</div>
+    <div>
+      <div class="step-title">Close this tab</div>
+      <div class="step-sub">Your changes are already saved with Stripe — no further action needed.</div>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-n">2</div>
+    <div>
+      <div class="step-title">Click the JobTrackr Pro icon in Chrome</div>
+      <div class="step-sub">Your license status will refresh automatically the next time you open the extension.</div>
+    </div>
+  </div>
+  <div class="step">
+    <div class="step-n">3</div>
+    <div>
+      <div class="step-title">If you cancelled, your Pro features stay active</div>
+      <div class="step-sub">Until the end of your current billing period. Your application data is never deleted.</div>
+    </div>
+  </div>
+</div>
+
+<div class="links">
+  <a class="link" href="mailto:janiceivana@gmail.con.com">Contact support</a>
+  <span style="color:var(--bd)">·</span>
+  <a class="link" href="https://janivana23.github.io/jobtrackr-pro/privacy">Privacy policy</a>
+</div>
+
+<div class="footer">
+  JobTrackr Pro · Built for foreign job seekers in Singapore 🌏<br>
+  © 2026 · All your data stays on your device
+</div>
+
+</body>
+</html>
